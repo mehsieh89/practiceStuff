@@ -16,6 +16,8 @@ body {
 }
 
 header {
+  width: 100%;
+  background-color: #ffffff;
   margin: 0 0 30px;
   border-bottom: 2px solid #cccccc;
 }
