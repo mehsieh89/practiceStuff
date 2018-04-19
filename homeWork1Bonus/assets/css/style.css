@@ -15,6 +15,11 @@ body {
   margin-bottom: -20px;
 }
 
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
 .headerContainer {
   width: 100%;
   max-width: 960px;
@@ -51,8 +56,14 @@ h2 {
   margin-right: 25px;
 }
 
-.footer,
+/* .footer,
 .push {
+  clear: both;
+  height: 20px;
+} */
+
+.footer,
+.wrapper:after {
   clear: both;
   height: 20px;
 }
@@ -63,7 +74,9 @@ h2 {
   color: #ccc;
   background-color: #666;
   border-top: 8px solid #4aaaa5;
+  margin-top: 30px;
   clear: both;
+  width: 100%;
   text-align: center;
 }
 
