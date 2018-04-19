@@ -24,9 +24,31 @@ body {
 }
 
 .AboutMeSection {
-  width: 960px;
+  width: 100%;
+  max-width: 898px;
   background: #fff;
+  padding: 30px;
   margin: 0 auto;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #ddd;
+}
+
+.profileImage {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
 }
 
 .footer,
@@ -53,7 +75,7 @@ header {
 }
 
 #name {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffffff;
   width: 250px;
