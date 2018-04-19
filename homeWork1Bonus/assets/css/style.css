@@ -56,12 +56,6 @@ h2 {
   margin-right: 25px;
 }
 
-/* .footer,
-.push {
-  clear: both;
-  height: 20px;
-} */
-
 .footer,
 .wrapper:after {
   clear: both;
